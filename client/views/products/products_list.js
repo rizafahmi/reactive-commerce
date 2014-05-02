@@ -1,3 +1,5 @@
 Template.productsList.helpers({
-  products: productsData
+  products: function() {
+              return Products.find();
+            }
 });
