@@ -1,13 +1,12 @@
-<template name="productItem">
-  <div class="col-md-4">
+<template name="productPage">
+  <div class="col-md-12">
     <div class="well well-small">
+      <h2>{{name}}</h2>
       <a href="#">
         <img src="/{{thumb}}" alt="">
       </a>
-      <h5>{{name}}</h5>
-      <p>
+      <p style="padding-top: 20px;">
         <a class="btn btn-warning" href="#">Add To <i class="glyphicon glyphicon-shopping-cart"></i></a>
-        <a class="btn btn-default" href="{{pathFor 'productPage'}}">View Details</a>
       </p>
       <p><span class="price"><small>Rp. </small> {{price}}</span></p>
 
