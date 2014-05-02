@@ -1,4 +1,4 @@
-var itemsData = [
+var productsData = [
 {
   name: "Tribal Patterned Skirt",
   price: 500000,
@@ -15,6 +15,6 @@ var itemsData = [
 }
 ];
 
-Template.itemsList.helpers({
-  items: itemsData
+Template.productsList.helpers({
+  products: productsData
 });
