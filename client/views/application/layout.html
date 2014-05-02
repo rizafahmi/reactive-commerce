@@ -1,0 +1,20 @@
+<template name="layout">
+  <div class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="{{pathFor 'productsList'}}">Reactive Commerce</a>
+      </div><!--./navbar-header -->
+
+      <div class="navbar-collapse collapse">
+        <div class="navbar-form navbar-right">
+          <a class="btn btn-primary my-cart" href="#">(0) My Cart</a>
+        </div><!--./navbar-right -->
+      </div><!--./navbar-collapse -->
+
+    </div><!--./navbar -->
+    <div id="main" class="row-fluid">
+      {{> yield}}
+    </div> <!--./main -->
+
+  </div><!--./container -->
+</template>
