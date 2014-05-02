@@ -2,3 +2,37 @@ body {
   background: #eee;
   color: #666666;
 }
+
+#main {
+  padding-top: 60px;
+}
+.navbar-right {
+  padding-right: 30px;
+}
+
+.well {
+  position: relative;
+  text-align: center;
+  background-color: #f4f4f4;
+  min-height: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e2e2;
+}
+
+.span3 {
+  width: 270px;
+  float: left;
+  margin-left: 30px;
+  min-height: 1px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  height: auto;
+}
+
+.price {
+  color: #e74c3c;
+}
